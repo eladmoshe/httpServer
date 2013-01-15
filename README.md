@@ -1,10 +1,12 @@
 httpServer
 ==========
 
-A very simple http server using node.js for serving the content of a local library on local host. 
-Useful for quick and dirty development deployment.
+An extremely simple developement http server using node.js for serving the content of a local directory 
+from a development machine. 
 
-Usage: 
+Useful for quick and dirty development deployment only.
+
+### Usage: 
 ```
 node server.js <directory to serve> <port to listen> 
 ```
